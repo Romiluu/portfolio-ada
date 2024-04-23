@@ -10,7 +10,10 @@ header{
     width: 100%;
     justify-content: flex-end;
     padding: 40px 0;
-    background-color:#E5D4FF;
+    background-color:#e4cde6;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 30px 0 rgba(197, 77, 191, 0.637);
 }
 .nav-menu {
     display: flex;
@@ -36,27 +39,31 @@ ul{
     color: #8c3999;
 }
 /* FIN HEADER */
-
-/* COMIENZO SECTION ABOUT */
 .section {
     display: flex;
     justify-content: center;
     padding: 110px 40px 130px;
     text-align: center;
 }
+.column{
+    width: 100%;
+    max-width: 1100px;
+}
+p {
+    display: block;
+    line-height: 1;
+}
+/* COMIENZO SECTION ABOUT */
 .about-section {
     min-height: calc(100vh - 90px);
     background-color: #F1EAFF;
+    margin-top: 90px;
 }
 .main-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-.column{
-    width: 100%;
-    max-width: 1100px;
 }
 .about-info{
     width: 100%;
@@ -72,10 +79,6 @@ ul{
     margin-bottom: 0px;
     font-weight: 900;
     color: #af7eda;
-}
-p {
-    display: block;
-    line-height: 1;
 }
 h1 {
     display: block;
@@ -114,5 +117,58 @@ img {
     box-shadow: 4px 4px 12px #964b96;
     
 }
+/* FIN SECTION ABOUT */
+/* COMIENZO SECTION SKILLS */
+.skills-section {
+    background-color: #dcd6eb;
+}
+.skills-description {
+    max-width: 400px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    display: block;
+    font-size: 50px;
+    font-weight: 1000;
+    line-height: 1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.skills-grid {
+    justify-content: center;
+}
+.skill {
+    color: #2e2e31;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #ac217d;
+    border-radius: 10px;
+    width: 280px;
+    margin: 10px;
+    padding: 30px;
+}
+.skill-title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+div {
+    display: block;
+}
+.skill-icon {
+    font-size: 5em;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    display: block;
+}
 
-
+/* FIN SECTION SKILLS */
