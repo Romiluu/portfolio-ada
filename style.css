@@ -14,17 +14,30 @@ header{
     position: fixed;
     top: 0;
     box-shadow: 0 0 30px 0 rgba(197, 77, 191, 0.637);
+    left: 0;
+    z-index: 1;
+}
+.column{
+    width: 100%;
+    max-width: 1100px;
+}
+div {
+    display: block;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
 }
 .nav-menu {
     display: flex;
     margin: 0;
 }
- .item { /*espacio entre item */
+.item { /*espacio entre item */
     margin: 0 20px;
+    padding: 0 10px;
 }
 ul{
     list-style-type: none; /* Elimina las viñetas */
-    padding: 0;
     margin: 0; 
 }
 .nav-link{
@@ -44,10 +57,6 @@ ul{
     justify-content: center;
     padding: 110px 40px 130px;
     text-align: center;
-}
-.column{
-    width: 100%;
-    max-width: 1100px;
 }
 p {
     display: block;
@@ -153,16 +162,13 @@ h2 {
     background-color: #fff;
     border: 1px solid #ac217d;
     border-radius: 10px;
-    width: 280px;
-    margin: 10px;
-    padding: 30px;
+    width: 270px;
+    margin: 25px;
+    padding: 20px;
 }
 .skill-title {
     font-size: 1.5em;
     font-weight: 800;
-}
-div {
-    display: block;
 }
 .skill-icon {
     font-size: 5em;
@@ -170,5 +176,25 @@ div {
     margin-bottom: 26px;
     display: block;
 }
-
 /* FIN SECTION SKILLS */
+/* COMIENZO SECTION QUOTE */
+.quote-section {
+    background-color: #e638ec;
+    color: white;
+}
+.quote-icon {
+    font-size: 6rem;
+    margin-bottom: 30px;
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.quote {
+    font-size: 1.7rem;
+    max-width: 800px;
+}
+/* FIN SECTION QUOTE */
