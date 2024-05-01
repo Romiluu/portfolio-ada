@@ -40,16 +40,14 @@ ul{
     list-style-type: none; /* Elimina las viñetas */
     margin: 0; 
 }
-.nav-link{
-    text-decoration: none;
-    color: #8c3999;
-}
 .contacto{
-    text-decoration: none; /* Elimina subrayado */
     border-radius: 100px;
     padding:  15px;
     background-color: #af7eda;
-    color: #8c3999;
+}
+a{
+    text-decoration: none; /* Elimina subrayado */
+    color: #8c3999
 }
 /* FIN HEADER */
 .section {
@@ -108,7 +106,6 @@ h1 {
 }
 .button {
     background-color: #af7eda;
-    color: #8c3999;
     padding: 15px 40px;
     border-radius: 100px;
     font-weight: 500;
@@ -120,11 +117,13 @@ h1 {
 img {
     display: block;
     width: 100%;
+}
+.about-img {
+    max-width: 500px;
     border-radius: 50%;
     width: 400px;
     height: 400px; 
     box-shadow: 4px 4px 12px #964b96;
-    
 }
 /* FIN SECTION ABOUT */
 /* COMIENZO SECTION SKILLS */
@@ -198,3 +197,28 @@ blockquote {
     max-width: 800px;
 }
 /* FIN SECTION QUOTE */
+/* COMIENZO SECTION PROJECTS */
+.projects {
+    width: 100%;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project {
+    width: calc(100% / 3 - (0.75em * 2));
+    margin: 0.75em;
+    border: 1px solid #ac217d;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.project-name {
+    font-weight: 900;
+    margin-top: 20px;
+}
+.project-section{
+    background-color: #F1EAFF
+}
