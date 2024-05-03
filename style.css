@@ -38,7 +38,7 @@ div {
 }
 ul{
     list-style-type: none; /* Elimina las viñetas */
-    margin: 0; 
+    padding: 0; 
 }
 .contacto{
     border-radius: 100px;
@@ -130,7 +130,7 @@ img {
 .skills-section {
     background-color: #dcd6eb;
 }
-.skills-description {
+.section-description {
     max-width: 400px;
 }
 .content{
@@ -213,7 +213,7 @@ blockquote {
     border-radius: 10px;
     padding: 20px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: white;
 }
 .project-name {
     font-weight: 900;
@@ -221,4 +221,50 @@ blockquote {
 }
 .project-section{
     background-color: #F1EAFF
+}
+/* FIN SECTION PROJECTS */
+/* COMIENZO SECTION CONTACT */
+.contact-section {
+    background-color: #dcd6eb;
+    padding-top: 200px;
+}
+.contact {
+    display: flex;
+    text-align: left;
+    background-color: white;
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+.contact-column {
+    width: 50%;
+    padding-right: 20px;
+}
+.contact .section-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.contact-social-links {
+    margin-top: 40px;
+    transition: 0.2s;
+}
+.contact-social-item {
+    display: flex;
+    margin: 5px 0;
+}
+.contact-social-link {
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+.contact-icon {
+    display: block;
+    width: 2rem;
+    height: 2.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-right: 10px;
+    text-align: center;
 }
