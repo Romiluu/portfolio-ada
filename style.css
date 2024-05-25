@@ -30,14 +30,14 @@ header{
 .navbar {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 .nav-menu {
     display: flex;
     margin: 0;
 }
 .item { /*espacio entre item */
-    margin: 0 20px;
-    padding: 0 10px;
+    margin: 0 10px;
 }
 .contacto{
     border-radius: 100px;
@@ -45,7 +45,7 @@ header{
     background-color: var(--button-color);
 }
 .nav-link{
-padding: 8px 10px 8px 10px;
+padding: 8px 10px ;
 border-radius: 70px;
 }
 
@@ -139,6 +139,14 @@ a:focus {
     box-shadow: 0 0 0 1px var(--box-shadow), 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada y cambio de color de borde */
     border-color: var(--border-color); /* Color del borde al pasar el mouse */
 }
+@media (max-width: 550px) {
+    h1 {
+      font-size: 45px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
 /* FIN BASES */
 
 
@@ -164,6 +172,23 @@ a:focus {
     flex-wrap: wrap;
     margin-top: 40px;
 }
+@media (max-width: 900px) {
+    .column {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .section {
+      padding: 80px 20px;
+    }
+  }
+  
+  @media (max-width: 400) {
+    .section {
+      padding: 80px 10px;
+    }
+  }  
 /* FIN LAYOUT */
 
 
@@ -211,6 +236,19 @@ a:focus {
     height: 400px; 
     box-shadow: 4px 4px 12px var(--box-shadow);
 }
+@media (max-width: 1100px) {
+    .main-content {
+      flex-direction: column;
+    }
+    .about-info {
+      align-items: center;
+      text-align: center;
+    }
+    .about-img {
+      margin-top: 30px;
+      width: 350px;
+    }
+  }
 /* FIN SECTION ABOUT */
 /* COMIENZO SECTION SKILLS */
 .skills-section {
@@ -244,6 +282,39 @@ a:focus {
     margin-bottom: 26px;
     display: block;
 }
+@media (max-width: 450px) {
+    .skill-title {
+      font-size: 1em;
+    }
+    .skill {
+      width: calc(50% - 20px);
+      padding: 20px 10px;
+      margin: 0.5em;
+    }
+    .skill-icon {
+      font-size: 3.71em;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .skill {
+      padding: 10px;
+      margin: 5px;
+    }
+    .skill-icon {
+      font-size: 2.71em;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .skill {
+      width: 100%;
+      max-width: 190px;
+    }
+    .skill-icon {
+      font-size: 2.71em;
+    }
+  }
 /* FIN SECTION SKILLS */
 /* COMIENZO SECTION QUOTE */
 .quote-section {
@@ -266,6 +337,15 @@ blockquote {
     font-size: 1.7rem;
     max-width: 800px;
 }
+@media (max-width: 500px) {
+    blockquote {
+      margin: 0;
+    }
+  
+    .quote {
+      font-size: 1em;
+    }
+  }
 /* FIN SECTION QUOTE */
 /* COMIENZO SECTION PROJECTS */
 .projects {
@@ -294,6 +374,34 @@ blockquote {
 .project-section{
     background-color: #F1EAFF
 }
+@media (max-width: 900px) {
+    .project-filters {
+      flex-wrap: wrap;
+    }
+  
+    .project {
+      width: calc(100% / 2 - (0.75em * 2));
+      margin: 0.75em;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .project-filters {
+      flex-wrap: wrap;
+    }
+    .project-filter {
+      margin: 0.5em 0;
+      font-size: 0.8em;
+      line-height: 2.2;
+      padding: 0 20px;
+    }
+  
+    .project {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 1.25em;
+    }
+  }
 /* FIN SECTION PROJECTS */
 /* COMIENZO SECTION CONTACT */
 .contact-section {
@@ -429,6 +537,66 @@ input:not(:placeholder-shown):invalid ~ .icon-invalid,
 textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
   display: block !important;
 }
+@media (max-width: 900px) {
+    .contact-section {
+      flex-direction: column;
+      padding: 0;
+      background-color: transparent;
+    }
+  
+    .contact {
+      flex-direction: column;
+      padding: 0 40px 120px;
+      border: 0;
+    }
+  
+    .contact-column {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .contact-column:last-child {
+      padding-left: 0;
+      margin-bottom: 60px;
+    }
+  
+    .contact-social-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .contact-social-item {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .contact {
+      padding: 20px;
+    }
+  
+    .contact-social-item {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  
+    .input-name-wrapper {
+      flex-direction: column;
+    }
+  
+    .input-lastname {
+      margin-left: 0;
+    }
+  
+    .input-name-wrapper .form-control:nth-of-type(1) {
+      margin-right: 0;
+    }
+  
+    .input-name-wrapper .form-control:nth-of-type(2) {
+      margin-left: 0;
+    }
+  }
   
 /* FIN SECTION CONTACT */
 /* COMIENZO FOOTER */
@@ -485,3 +653,11 @@ footer {
   transform: scale(1.2);
   border: 1px solid #fff;
 }  
+@media (max-width: 700px) {
+    .footer-nav-menu {
+      display: none;
+    }
+    .footer-social-links {
+      margin-top: 0;
+    }
+  }
