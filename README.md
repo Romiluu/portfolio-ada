@@ -6,7 +6,7 @@ URL:  [Portfolio Romina Luna](https://romiluu.github.io/portfolio-ada/ "Heading 
 ------------
 ### Descripción
 ###### ¡Bienvenido a mi portfolio!
-Este proyecto es un sitio web personal realizado en el curso de desarrollo web Frontend dado por ADA, donde se podran ver las tecnologias aprendidas.
+Este proyecto es un sitio web personal realizado en el curso de desarrollo web Frontend dictado por ADA, donde se podran ver las tecnologias aprendidas.
 
 ![image](https://github.com/Romiluu/portfolio-ada/assets/70774797/cb9ea3cc-0c8e-4cc8-baf8-6cd0bf875cc0)
 
