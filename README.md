@@ -14,11 +14,11 @@ Este proyecto es un sitio web personal realizado en el curso de desarrollo web F
 
 ### En mi portfolio podemos encontrar las siguientes secciones
 
-**Barra de naegacion**:  Podran despazarse a las diferentes secciones.
-**Home/sobre mi**:  Breve presentacion.
-**Mis Conocimientos**: Tecnologias aprendidas durante el curso.
-**Proyectos**: Proyectos realizados.
-**Contacto**: Links para contactarme y formulario.
+**Barra de naegacion**:  Podran despazarse a las diferentes secciones.  
+**Home/sobre mi**:  Breve presentacion.  
+**Mis Conocimientos**: Tecnologias aprendidas durante el curso.  
+**Proyectos**: Proyectos realizados.  
+**Contacto**: Links para contactarme y formulario.  
 **Footer**: Links de contacto y navegacion en el portfolio
 
 ------------
@@ -51,5 +51,5 @@ Este proyecto no cuenta con licencia.
 
 ------------
 ###### Contacto
-LinkedIn: Romina Luna
+LinkedIn: Romina Luna  
 Correo Electrónico: Romiluna04@gmail.com
