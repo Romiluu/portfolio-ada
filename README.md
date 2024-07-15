@@ -51,5 +51,7 @@ Este proyecto no cuenta con licencia.
 
 ------------
 ###### Contacto
-LinkedIn: Romina Luna  
+
+LinkedIn:  [Romina Luna](http://www.linkedin.com/in/romina-luna04/ "Heading link") 
+
 Correo Electrónico: Romiluna04@gmail.com
